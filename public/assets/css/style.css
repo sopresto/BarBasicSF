@@ -1,11 +1,22 @@
 body {
     
     font-family: 'Krub', sans-serif;
-
     font-size: 20px;
+    padding: 20px;
+    background-color: rgb(241, 241, 226);
 
 }
 
 .nav-wrapper {
     font-weight: bold;
+    background-color: rgb(59, 36, 36);
+
+}
+
+#updateColor {
+    background-color: black;
+}
+
+.page-footer {
+    background-color: rgb(212, 212, 212)
 }
