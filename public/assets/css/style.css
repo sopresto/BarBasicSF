@@ -31,7 +31,18 @@ body {
     
 }
 
-#introCard {
-    background-color: beige;
+.card-image {
+    height: 100;
+    width: 100;
+    float: left;
 }
 
+.row {
+    margin-top: 20px;
+}
+
+.container {
+    justify-content:center;
+    margin-top: 20px;
+
+}
