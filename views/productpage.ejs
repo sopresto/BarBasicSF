@@ -1,4 +1,51 @@
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Document</title>
+<!-- link for materialize     -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<!-- link for google fonts -->
+<link href="https://fonts.googleapis.com/css?family=Krub" rel="stylesheet">
+<!-- this will let you add the shopping cart -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+<!-- link to stylesheet -->
+<link rel="stylesheet" href="assets/css/style.css">
 
 </head>
+
+<body>
+<nav>
+<div class="nav-wrapper">
+    <a href="index.html" class="brand-logo">Bar Basic</a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shoppage.html">Shop</a></li>
+        <li><a href="signup.html">Login/Sign-up</a></li>
+        <li><a href="#"><i class="material-icons">add_shopping_cart</i></a></li>
+    </ul>
+</div>
+</nav>
+
+<center>
+    <h1>Shop Bar</h1>
+<center>
+
+    <ul>
+	<% for (var i=0; i<products.length; i++) { %>
+		<li>
+			<span class="images"><%= products[i].image_url %></span>
+			<span class="description"><%= products[i].description %></span>
+		</li>
+	<% } %>
+</ul>
+    
+
+
+
+
+
+
+
+</body>

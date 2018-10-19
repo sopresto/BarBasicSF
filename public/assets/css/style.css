@@ -18,7 +18,10 @@ body {
 }
 
 .page-footer {
-    background-color: rgb(212, 212, 212)
+    background-color: beige;
+    opacity: 200;
+    color: black;
+    align-content: stretch;
 }
 
 #fallLine {
@@ -51,14 +54,21 @@ body {
     margin-top: 20px;
 }
 
+#cardSmall {
+    background-color: rgb(69, 59, 59);
+    color: rgb(171, 171, 171);
+}
+
+
 .button {
     display: inline-block;
     border-radius: 4px;
-    background-color: #423f3d;
+    background-color: rgb(43, 42, 42);
     border: none;
     color: #FFFFFF;
     text-align: center;
     font-size: 28px;
+    font-style: italic;
     padding: 20px;
     width: 200px;
     transition: all 0.5s;

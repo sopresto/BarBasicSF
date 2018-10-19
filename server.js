@@ -57,6 +57,15 @@ app.get('/users', function(req, res){
     });
 });
 
+app.get('/shop-bar', function(req,res){
+    connection.query('select * from products', function(err, response){
+        res.render('productpage', {
+            products: response
+            });
+    });
+
+});
+
 
 app.listen(3001, function() {
     console.log("listening on 3001");
