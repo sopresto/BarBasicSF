@@ -4,6 +4,10 @@ var app = express();
 var cookieParser = require("cookie-parser");
 var path = require("path");
 
+// for ejs templating
+
+app.set('view engine', 'ejs');
+
 //you need this to be able to process information sent to a POST route
 var bodyParser = require('body-parser');
 

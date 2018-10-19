@@ -46,3 +46,30 @@ body {
     margin-top: 20px;
 
 }
+
+#cardHeader {
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #423f3d;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  #cardP {
+      font-style: italic;
+  }
+
+  #loginButton {
+      background-color: black;
+  }
