@@ -13,6 +13,13 @@
 <!-- link to stylesheet -->
 <link rel="stylesheet" href="assets/css/style.css">
 
+<style>
+.container {
+    justify-content:center;
+    margin-top: 20px;
+}
+</style>
+
 </head>
 
 <body>
@@ -30,17 +37,27 @@
 
 <center>
     <h1>Shop Bar</h1>
-<center>
+</center>
 
-    <ul>
-	<% for (var i=0; i<products.length; i++) { %>
-		<li>
-			<span class="images"><img src="/images/black-adidas-fit"<%= img %>></span>
-			<span class="description"><%= products[i].description %></span>
-		</li>
-	<% } %>
-</ul>
     
+    <div id="container" class="row">
+            
+
+	<% for (var i=0; i<products.length; i++) { %>
+        <div class="col s4">
+        <span><img src="http://localhost:3000/assets/images/"><% products[i].image_url %></span>
+            
+
+            <p class="description"><%= products[i].description %></p>
+            <p class="price">$<%=  products[i].price %></p>
+            
+            <p><button>Add to cart</button>
+            <i class="material-icons">favorite_border</i></p>
+            
+		</div>
+	<% } %>
+
+    </div>
 
 
 
