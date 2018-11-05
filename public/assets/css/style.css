@@ -83,3 +83,8 @@ body {
   #loginButton {
       background-color: black;
   }
+
+  #addCart {
+        color: white;
+        background-color: rgb(59, 36, 36);
+  }

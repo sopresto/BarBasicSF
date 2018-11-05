@@ -13,6 +13,9 @@
 <!-- link to stylesheet -->
 <link rel="stylesheet" href="assets/css/style.css">
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
 <style>
 .container {
     justify-content:center;
@@ -58,7 +61,7 @@ img {
             <p class="description"><%= products[i].description %></p>
             <p class="price">$<%=  products[i].price %></p>
             
-            <p><button>Add to cart</button>
+            <p><button id="addCart">Add to cart</button>
             <i class="material-icons">favorite_border</i></p>
             
 		</div>
@@ -67,9 +70,5 @@ img {
     </div>
 
 
-
-
-
-
-
+<script src="assets/javascript/app.js"></script>
 </body>

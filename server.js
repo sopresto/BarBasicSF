@@ -67,6 +67,6 @@ app.get('/shop-bar', function(req,res){
 });
 
 
-app.listen(3002, function() {
-    console.log("listening on 3002");
+app.listen(3001, function() {
+    console.log("listening on 3001");
 });
