@@ -1,7 +1,6 @@
 {
   "name": "BarBasicSF",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -26,5 +25,7 @@
     "express-session": "^1.15.6",
     "mysql": "^2.16.0",
     "path": "^0.12.7"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
